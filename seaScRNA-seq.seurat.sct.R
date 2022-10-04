@@ -344,3 +344,12 @@ xtheme <- theme_bw()+ theme(plot.title = element_text(face = "bold" ,hjust = 0.5
 ggplot(df, aes(fill=Condition, y=Percent, x=Cell_Type)) + 
   geom_bar(position="fill", stat="identity") + scale_fill_viridis(discrete = T) + xlab("") + xtheme + 
   theme(legend.position='top', axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
+
+#Check expression of markers
+FeaturePlot(immune.combined.sct_umap, features = c("JCHAIN","MS4A1","TCF4","FSCN1",
+                                            "CCR7","CD83","RET.1","LTC4S",
+                                            "MS4A2","APOE","C1QA","C1QB",
+                                            "IL1RN","CXCL2","SNX10","CCL5",
+                                            "GZMA","CD3E"), pt.size = 0.2, ncol = 5) + theme(legend.position = 'none', 
+                                                                                                                     axis.title.x = element_blank(), axis.title.y = element_blank())
+DimPlot(immune.combined.sct_umap, group.by = "cell_type", reduction = "umap", label = FALSE, cols= c("#e30800", "#f56505", "#dec400", "#006630", "#0223c7","#5b02c7", "#00b0e6"))
