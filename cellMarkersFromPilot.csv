@@ -1,0 +1,61 @@
+﻿Type,Marker
+B_Plasma,JCHAIN
+B_Plasma,LOC100060608
+B_Plasma,LOC102147726
+B_Plasma,MS4A1
+B_Plasma,TCF4
+B_Plasma,MEF2C
+B_Plasma,LOC106781109
+B_Plasma,RALGPS2
+B_Plasma,IRF8
+B_Plasma,CD79A
+Dendritic,FSCN1
+Dendritic,CCR7
+Dendritic,CD83
+Dendritic,TSC22D1
+Dendritic,RAB9A
+Dendritic,BCL2A1
+Dendritic,IFI30
+Dendritic,LAMP3
+Dendritic,CD1E2
+Dendritic,GPR183
+Mast,RET.1
+Mast,LTC4S
+Mast,MS4A2
+Mast,RHEX
+Mast,GATA2
+Mast,FCER1A
+Mast,GCSAML
+Mast,LOC102148941
+Mast,CFAP206
+Mast,CSF2RB
+MoMa,APOE
+MoMa,C1QA
+MoMa,LOC102148710
+MoMa,C1QB
+MoMa,GPNMB
+MoMa,C1QC
+MoMa,LOC100069029
+MoMa,LOC100630171
+MoMa,CD163
+MoMa,MARCO
+Neutrophils,IL1RN
+Neutrophils,CXCL2
+Neutrophils,SNX10
+Neutrophils,HCAR2
+Neutrophils,PTX3
+Neutrophils,TREM1
+Neutrophils,G0S2
+Neutrophils,CCRL2
+Neutrophils,LOC100071611
+Neutrophils,LOC111775969
+T cells,CCL5
+T cells,GZMA
+T cells,CD3E
+T cells,CTSW
+T cells,CD3G
+T cells,LOC100147522
+T cells,PTPRCAP
+T cells,CD2
+T cells,ETS1
+T cells,HOPX
